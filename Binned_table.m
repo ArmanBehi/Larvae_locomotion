@@ -1,6 +1,6 @@
 function newcell = Binned_table(data_table,Start_time,End_time)
 
-newcell = cell(3,1);
+newcell = cell(3,1);%something
 %%Dividing based on the frames
 Conditions = findgroups(data_table.condition);
 
